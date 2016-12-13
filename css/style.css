@@ -327,8 +327,6 @@ body {
 }
 .map-area{
   height:50vh;
-  
-  z-index:1000;
   top:0;
   left:0;
   right:0;
@@ -359,7 +357,6 @@ body {
   transition: all .1s ease-out;
   position: relative;
   overflow: hidden;
-  z-index: 998;
 }
 
 .card:active,
