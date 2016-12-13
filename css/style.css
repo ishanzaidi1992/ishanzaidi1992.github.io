@@ -324,10 +324,11 @@ body {
 
 #map{
   height:100%;
-  z-index:1000;
 }
 .map-area{
   height:50vh;
+  
+  z-index:1000;
   top:0;
   left:0;
   right:0;
