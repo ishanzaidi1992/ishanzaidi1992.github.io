@@ -324,6 +324,7 @@ body {
 
 #map{
   height:100%;
+  z-index:1000;
 }
 .map-area{
   height:50vh;
@@ -331,7 +332,6 @@ body {
   left:0;
   right:0;
   bottom:0;
-  z-index:13;
   position:relative;
 }
 .content{
