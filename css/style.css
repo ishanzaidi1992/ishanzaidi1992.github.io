@@ -96,6 +96,18 @@ body {
   background-repeat: no-repeat;
   position: relative;
 }
+.user-image4 {
+  height: 70%;
+  background-position: -80px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.user-image5 {
+  height: 70%;
+  background-position: -80px;
+  background-repeat: no-repeat;
+  position: relative;
+}
 
 .username {
   position: absolute;
