@@ -17,10 +17,6 @@ function updateTime() {
     $(".minute").html(0);
     $(".hour").html(0);
     $(".day").html(0);
-    $(".seconds").css("stroke-dasharray", + Math.floor((Math.random() * 100) + 1) + " 100");
-    $(".minutes").css("stroke-dasharray", + Math.floor((Math.random() * 100) + 1) + " 100");
-    $(".hours").css("stroke-dasharray", + Math.floor((Math.random() * 100) + 1) + " 100");
-    $(".days").css("stroke-dasharray", + Math.floor((Math.random() * 100) + 1) + " 100");
     $('.greeting').html('Welcome to '+today.getFullYear());
   } else {
     if(d.days<=30){
@@ -40,10 +36,6 @@ function updateTime() {
       m2 = d.minutes,
       h2 = d.hours,
       d2 = d.days;
-    $(".seconds").css("stroke-dasharray", +s + " 100");
-    $(".minutes").css("stroke-dasharray", +m + " 100");
-    $(".hours").css("stroke-dasharray", +h + " 100");
-    $(".days").css("stroke-dasharray", +d1 + " 100");
       ripple(".second");
       $(".second").html((s2 < 10 ? "0" : "") + s2);
     if (parseInt($(".minute").html()) !== m2) {
