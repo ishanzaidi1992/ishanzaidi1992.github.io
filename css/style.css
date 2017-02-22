@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
-
+@media only screen and (min-device-width: 1024px){
 body {
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
@@ -47,4 +47,6 @@ body {
   right: 100px;
   z-index: 999;
 }
-
+}
+@media only screen and (min-device-width: 480px){
+}
