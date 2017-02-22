@@ -164,6 +164,14 @@
 /* Media queries */
 
 @media only screen and (min-device-width: 480px){
+	.ip-logo,
+.ip-loader {
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	cursor: default;
+	pointer-events: none;
+}
 	.ip-logo {
 	top: 0;
 	left: 15%;
