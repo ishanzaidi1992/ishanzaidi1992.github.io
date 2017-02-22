@@ -56,25 +56,5 @@ body {
 }
 
 @media only screen and (max-device-width: 480px) {
-.slide-container {
-  margin: auto;
-  width: 300px;
-  text-align: center;
-}
-	.slick-prev {
-  left: 10px;
-  z-index: 999;
-}
-
-.slick-next {
-  right: 10px;
-  z-index: 999;
-}
-.clash-card {
-  display: inline-block;
-  position: relative;
-  width:250px;
-  text-align: center;
-}
 
 	}
