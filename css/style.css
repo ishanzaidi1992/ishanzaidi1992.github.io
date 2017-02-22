@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
 body {
+	position:absolute;
+	top:0;
+	bottom:0;
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
 }
