@@ -1,7 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
-*, *:before, *:after {
-  box-sizing: border-box;
-}
 
 body {
   background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
