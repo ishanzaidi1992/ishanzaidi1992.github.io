@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
-@media only screen and (min-device-width: 1024px){
+@media only screen and (min-device-width: 1000px){
 body {
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
