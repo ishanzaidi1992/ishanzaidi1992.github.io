@@ -54,3 +54,27 @@ body {
   right: 100px;
   z-index: 999;
 }
+
+@media only screen and (max-device-width: 480px) {
+.slide-container {
+  margin: auto;
+  width: 70px;
+  text-align: center;
+}
+	.slick-prev {
+  left: 10px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 10px;
+  z-index: 999;
+}
+.clash-card {
+  display: inline-block;
+  position: relative;
+  width:40px;
+  text-align: center;
+}
+
+	}
