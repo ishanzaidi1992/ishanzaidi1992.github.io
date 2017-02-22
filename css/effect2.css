@@ -170,14 +170,13 @@
 	}
 
 .ip-logo {
-	position:absolute;
-	top: 0;
-	left: 15%;
+	
 	height: 80%;
 }
 .ip-header .ip-logo svg {
 	position: absolute;
 	min-height: 100px;
+	left: 15%;
 	height: 25%;
 }
 
