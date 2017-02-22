@@ -174,8 +174,14 @@
 	top: 0;
 	left: 15%;
 	height: 80%;
-	-webkit-transform: translate3d(0,25%,0);
-	transform: translate3d(0,25%,0);
+}
+.ip-header .ip-logo svg {
+	position: absolute;
+	min-height: 100px;
+	height: 25%;
 }
 
+.loaded .ip-header .ip-logo svg {
+	max-height: 200px;
+}
 }
