@@ -58,7 +58,7 @@ body {
 @media only screen and (max-device-width: 480px) {
 .slide-container {
   margin: auto;
-  width: 70px;
+  width: 300px;
   text-align: center;
 }
 	.slick-prev {
@@ -73,7 +73,7 @@ body {
 .clash-card {
   display: inline-block;
   position: relative;
-  width:40px;
+  width:250px;
   text-align: center;
 }
 
