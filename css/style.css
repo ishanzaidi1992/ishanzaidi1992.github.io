@@ -49,4 +49,51 @@ body {
 }
 }
 @media only screen and (min-device-width: 480px){
+	body {
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9E9E9E;
+}
+.demo-2 { background: #72d0f4; }
+.slide-container {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 30px;
+}
+.wrapper:focus {
+  outline: 0;
+}
+
+.clash-card {
+  display: inline-block;
+  position: relative;
+  width:100%;
+  text-align: center;
+}
+
+.clash-card__image a{
+	
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.slick-prev {
+  left: 50px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 50px;
+  z-index: 999;
+}
 }
