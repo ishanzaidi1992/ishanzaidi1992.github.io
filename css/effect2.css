@@ -171,8 +171,8 @@
 
 .ip-logo {
 	top: 0;
-	left: 15%;
-	height: 100%;
+	left: 50px;
+	height: 80%;
 	-webkit-transform: translate3d(0,25%,0);
 	transform: translate3d(0,25%,0);
 }
