@@ -54,7 +54,3 @@ body {
   right: 100px;
   z-index: 999;
 }
-
-@media only screen and (max-device-width: 480px) {
-
-	}
