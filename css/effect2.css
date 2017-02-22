@@ -163,15 +163,15 @@
 
 /* Media queries */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 45em) {
+
+	.ip-main h2 {
+		font-size: 2.25em;
+		font-size: 10vw;
+	}
 
 	.box {
 		width: 100%%;
 	}
-
-.ip-logo {
-	
-	height: 80%;
-}
 
 }
