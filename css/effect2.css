@@ -22,6 +22,7 @@
 	pointer-events: none;
 }
 
+/*
 .ip-logo {
 	top: 0;
 	left: 35%;
@@ -29,6 +30,7 @@
 	-webkit-transform: translate3d(0,25%,0);
 	transform: translate3d(0,25%,0);
 }
+*/
 
 .ip-loader {
 	bottom: 15%;
@@ -39,6 +41,7 @@
 	margin: 0 auto;
 }
 
+/*
 .ip-header .ip-logo svg {
 	position: absolute;
 	min-height: 200px;
@@ -48,6 +51,7 @@
 .loaded .ip-header .ip-logo svg {
 	max-height: 300px;
 }
+*/
 
 .ip-header .ip-logo svg img {
 	fill: #1c9ccd;
@@ -179,5 +183,24 @@
 
 .loaded .ip-header .ip-logo svg {
 	max-height: 200px;
+}
+}
+@media (min-width:1000px) {
+.ip-logo {
+	top: 0;
+	left: 35%;
+	height: 100%;
+	-webkit-transform: translate3d(0,25%,0);
+	transform: translate3d(0,25%,0);
+}
+
+.ip-header .ip-logo svg {
+	position: absolute;
+	min-height: 200px;
+	height: 25%;
+}
+
+.loaded .ip-header .ip-logo svg {
+	max-height: 300px;
 }
 }
