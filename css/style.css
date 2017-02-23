@@ -71,7 +71,7 @@ body {
 }
 
 .wrapper {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .wrapper:focus {
   outline: 0;
@@ -98,12 +98,12 @@ body {
 }
 
 .slick-prev {
-  left: 100px;
+  left: 20px;
   z-index: 999;
 }
 
 .slick-next {
-  right: 100px;
+  right: 20px;
   z-index: 999;
 }
 }
