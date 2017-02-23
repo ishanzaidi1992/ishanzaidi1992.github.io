@@ -98,12 +98,12 @@ body {
 }
 
 .slick-prev {
-  left: 5px;
+  left: 1px;
   z-index: 999;
 }
 
 .slick-next {
-  right: 5px;
+  right: 1px;
   z-index: 999;
 }
 }
