@@ -165,10 +165,19 @@
 
 @media (min-width:320px) {
 	.ip-logo {
-	top: 5px;
+	top: -50px;
 	left: 1%;
 	height: 90%;
 	-webkit-transform: translate3d(0,25%,0);
 	transform: translate3d(0,25%,0);
+}
+	.ip-header .ip-logo svg {
+	position: absolute;
+	min-height: 150px;
+	height: 25%;
+}
+
+.loaded .ip-header .ip-logo svg {
+	max-height: 200px;
 }
 }
