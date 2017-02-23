@@ -80,7 +80,7 @@ body {
 .clash-card {
   display: inline-block;
   position: relative;
-  width:80%;
+  width:90%;
   text-align: center;
 }
 
@@ -98,12 +98,12 @@ body {
 }
 
 .slick-prev {
-  left: 80px;
+  left: 100px;
   z-index: 999;
 }
 
 .slick-next {
-  right: 80px;
+  right: 100px;
   z-index: 999;
 }
 }
