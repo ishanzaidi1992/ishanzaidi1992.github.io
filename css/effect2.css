@@ -165,8 +165,8 @@
 
 @media (min-width:320px) {
 	.ip-logo {
-	top: -50px;
-	left: 1%;
+	top: -80px;
+	left: -5%;
 	height: 90%;
 	-webkit-transform: translate3d(0,25%,0);
 	transform: translate3d(0,25%,0);
