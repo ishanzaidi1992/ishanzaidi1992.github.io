@@ -35,8 +35,9 @@ body {
   display: inline-block;
   position: relative;
   width:400px;
-	height:500px;
+	height:600px;
 	border:1px solid;
+	background:white;
   text-align: center;
 }
 .clash-card__image a{
