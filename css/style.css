@@ -31,7 +31,14 @@ body {
   width:400px;
   text-align: center;
 }
-
+.clash-card form{
+  display: inline-block;
+  position: relative;
+  width:400px;
+	height:500px;
+	border:1px;
+  text-align: center;
+}
 .clash-card__image a{
 	
 }
