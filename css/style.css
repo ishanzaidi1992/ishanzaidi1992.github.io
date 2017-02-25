@@ -14,7 +14,7 @@ body {
 .demo-2 { background: #72d0f4; }
 .slide-container {
   margin: auto;
-  width: 450px;
+  width: 470px;
   text-align: center;
 }
 
@@ -46,12 +46,12 @@ body {
 }
 
 .slick-prev {
-  left: 100px;
+  left: 80px;
   z-index: 999;
 }
 
 .slick-next {
-  right: 100px;
+  right: 80px;
   z-index: 999;
 }
 }
