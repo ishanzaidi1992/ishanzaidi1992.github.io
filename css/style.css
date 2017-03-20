@@ -32,14 +32,14 @@ body {
   text-align: center;
 }
 .clash-card form{
-  display: inline-block;
-  position: relative;
-  width:430px;
-	height:500px;
-	border:1px solid;
-	background:white;
+position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
   text-align: center;
-	margin:15px auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 .clash-card .feedback-input {
   color:black;
