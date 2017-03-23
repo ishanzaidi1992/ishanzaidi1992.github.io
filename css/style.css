@@ -36,11 +36,11 @@ body {
 	height:590px;
 	background: #E41E39;
 }
-	#countdown {
-   width: 420px;
+#countdown {
+   width: 462px;
    position: absolute;
    left: 50%;
-   top: 70%;
+   top: 50%;
    transform: translate(-50%, -50%) rotate(-45deg);
    padding: 0;
    list-style: none;
@@ -52,8 +52,8 @@ body {
    float: left;
    background: #fff;
    margin: 2px;
-   width: 130px;
-   height: 130px;
+   width: 150px;
+   height: 150px;
 }
 
 #countdown li:nth-child(3) {
