@@ -37,14 +37,14 @@ body {
 	background: #E41E39;
 }
 	#map {
-        height: 280px;
+        height: 300px;
         width: 100%;
        }
 #countdown {
    width: 462px;
    position: relative;
    left: 41%;
-   top: 2%;
+   top: 1%;
    transform: translate(-50%, -50%) rotate(-45deg);
    padding: 0;
    list-style: none;
