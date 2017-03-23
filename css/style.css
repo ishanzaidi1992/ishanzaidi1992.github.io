@@ -37,7 +37,7 @@ body {
 	background: #E41E39;
 }
 	#countdown {
-   width: 400px;
+   width: 420px;
    position: absolute;
    left: 50%;
    top: 70%;
@@ -52,8 +52,8 @@ body {
    float: left;
    background: #fff;
    margin: 2px;
-   width: 150px;
-   height: 150px;
+   width: 130px;
+   height: 130px;
 }
 
 #countdown li:nth-child(3) {
