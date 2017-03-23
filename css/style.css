@@ -67,7 +67,7 @@ body {
 
 #countdown li div {
    transform: rotate(45deg);
-   font: 5px arial, sans-serif;
+   font: 13px arial, sans-serif;
    display: table-cell;
    vertical-align: middle;
 }
