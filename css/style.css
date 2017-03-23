@@ -47,10 +47,12 @@ body {
 
 .slick-prev {
   left: 80px;
+  z-index: 999;
 }
 
 .slick-next {
   right: 80px;
+  z-index: 999;	
 }
 }
 @media (min-width:320px){
