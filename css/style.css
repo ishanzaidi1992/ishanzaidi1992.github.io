@@ -39,7 +39,7 @@ body {
 #countdown {
    width: 462px;
    position: relative;
-   left: 5%;
+   left: 25%;
    top: 50%;
    transform: translate(-50%, -50%) rotate(-45deg);
    padding: 0;
