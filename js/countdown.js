@@ -24,8 +24,8 @@
    rest <= 0 ? days = hours = minutes = seconds = '00' : setTimeout(countdown, 1000);
      
    document.getElementById('countdown').innerHTML =
-      '<li><div><span>' + days +'</span>day' + (days > 1 ? 's' : '') +'<br></div></li>'
-      +'<li><div><span>' + hours +'</span>hour' + (hours > 1 ? 's' : '') +'<br></div></li>'
-      +'<li><div><span>' + minutes +'</span>minute' + (minutes > 1 ? 's' : '') +'<br></div></li>'
-      +'<li><div><span>' + seconds +'</span>second' + (seconds > 1 ? 's' : '') +'<br></div></li>';
+      '<li><div><span>' + days +'</span><br>day' + (days > 1 ? 's' : '') +'</div></li>'
+      +'<li><div><span>' + hours +'</span><br>hour' + (hours > 1 ? 's' : '') +'</div></li>'
+      +'<li><div><span>' + minutes +'</span><br>minute' + (minutes > 1 ? 's' : '') +'</div></li>'
+      +'<li><div><span>' + seconds +'</span><br>second' + (seconds > 1 ? 's' : '') +'</div></li>';
 })();
