@@ -44,7 +44,7 @@ body {
    width: 462px;
    position: relative;
    left: 41%;
-   top: 1%;
+   top: 0%;
    transform: translate(-50%, -50%) rotate(-45deg);
    padding: 0;
    list-style: none;
@@ -67,6 +67,7 @@ body {
 
 #countdown li div {
    transform: rotate(45deg);
+   font: 15px arial, sans-serif;
    display: table-cell;
    vertical-align: middle;
 }
