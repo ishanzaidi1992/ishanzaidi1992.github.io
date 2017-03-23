@@ -34,7 +34,43 @@ body {
 .clash-card .last{
 	width:425px;
 	height:590px;
-	background:#FFF;
+	background: #E41E39;
+}
+	#countdown {
+   width: 462px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%) rotate(-45deg);
+   padding: 0;
+   list-style: none;
+}
+
+#countdown li {
+   display: table;
+   text-align: center;
+   float: left;
+   background: #fff;
+   margin: 2px;
+   width: 150px;
+   height: 150px;
+}
+
+#countdown li:nth-child(3) {
+   clear: left;
+   margin-left: 156px;
+}
+
+#countdown li div {
+   transform: rotate(45deg);
+   display: table-cell;
+   vertical-align: middle;
+}
+
+#countdown li div span {
+   display: block;
+   font-size: 3rem;
+   color: #323031;
 }
 .clearfix:after {
   visibility: hidden;
