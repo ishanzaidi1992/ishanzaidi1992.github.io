@@ -39,8 +39,8 @@ body {
 #countdown {
    width: 462px;
    position: relative;
-   left: 35%;
-   top: 50%;
+   left: 40%;
+   top: 55%;
    transform: translate(-50%, -50%) rotate(-45deg);
    padding: 0;
    list-style: none;
@@ -52,8 +52,8 @@ body {
    float: left;
    background: #fff;
    margin: 2px;
-   width: 120px;
-   height: 120px;
+   width: 110px;
+   height: 110px;
 }
 
 #countdown li:nth-child(3) {
