@@ -126,12 +126,12 @@ body {
 }
 .clash-card .last{
 	width:200px;
-	height:95%;
+	height:500px;
 	background: #E41E39;
 }
 	#map {
-        height: 100px;
-        width: 100%;
+        height: 200px;
+        width: 300px;
        }
 #countdown {
    width: 262px;
