@@ -136,7 +136,7 @@ body {
 #countdown {
    width: 262px;
    position: relative;
-   left: 35%;
+   left: 32%;
    top: 3%;
    transform: translate(-50%, -50%) rotate(-45deg);
    padding: 0;
@@ -155,7 +155,7 @@ body {
 
 #countdown li:nth-child(3) {
    clear: left;
-   margin-left: 83px;
+   margin-left: 85px;
 }
 
 #countdown li div {
