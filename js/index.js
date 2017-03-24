@@ -5,7 +5,6 @@
   slideContainer.slick();
   
   $('.clash-card__image img').hide();
-  $('.slick-active').find('.clash-card img').fadeIn(200);
   
   // On before slide change
   slideContainer.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
