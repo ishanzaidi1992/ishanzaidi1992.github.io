@@ -4,12 +4,14 @@
 }
 @media (min-width:1000px){
 body {
-  background-image: linear-gradient(to bottom right, #E1BEE7, #B2EBF2);
+  background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg") no-repeat center center fixed;
   background-size: cover;
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
 }
-.demo-2 { background: #72d0f4; }
+.demo-2 { background-image: linear-gradient(to bottom right, #E1BEE7, #B2EBF2); }
 .slide-container {
   margin: auto;
   width: 470px;
@@ -96,12 +98,14 @@ body {
 }
 @media (min-width:320px){
 body {
-	background-image: linear-gradient(to bottom right, #E1BEE7, #B2EBF2);
+background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg") no-repeat center center fixed;
   background-size: cover;
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
 }
-.demo-2 { background: #72d0f4; }
+.demo-2 { background-image: linear-gradient(to bottom right, #E1BEE7, #B2EBF2); }
 .slide-container {
   margin: auto;
   text-align: center;
