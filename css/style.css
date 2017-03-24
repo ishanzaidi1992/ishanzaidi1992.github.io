@@ -56,13 +56,13 @@ body {
    float: left;
    background: #fff;
    margin: 2px;
-   width: 100px;
-   height: 100px;
+   width: 110px;
+   height: 110px;
 }
 
 #countdown li:nth-child(3) {
    clear: left;
-   margin-left: 110px;
+   margin-left: 114px;
 }
 
 #countdown li div {
