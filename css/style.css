@@ -96,7 +96,7 @@ body {
   z-index: 999;	
 }
 }
-@media (min-width:320px){
+@media (min-width:320px) and (max-width: 900px){
 body {
 background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
   background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
@@ -124,7 +124,52 @@ background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) 
   width:90%;
   text-align: center;
 }
+.clash-card .last{
+	width:310px;
+	height:450px;
+	background: #E41E39;
+}
+	#map {
+        height: 230px;
+        width: 310px;
+       }
+#countdown {
+   width: 262px;
+   position: relative;
+   left: 32%;
+   top: 3%;
+   transform: translate(-50%, -50%) rotate(-45deg);
+   padding: 0;
+   list-style: none;
+}
 
+#countdown li {
+   display: table;
+   text-align: center;
+   float: left;
+   background: #fff;
+   margin: 2px;
+   width: 80px;
+   height: 80px;
+}
+
+#countdown li:nth-child(3) {
+   clear: left;
+   margin-left: 85px;
+}
+
+#countdown li div {
+   transform: rotate(45deg);
+   font: 14px arial, sans-serif;
+   display: table-cell;
+   vertical-align: middle;
+}
+
+#countdown li div span {
+   display: block;
+   font-size: 2rem;
+   color: #323031;
+}
 .clearfix:after {
   visibility: hidden;
   display: block;
