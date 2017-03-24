@@ -124,11 +124,52 @@ body {
   width:90%;
   text-align: center;
 }
-
-.clash-card__image a{
-	
+.clash-card .last{
+	width:90%;
+	height:95%;
+	background: #E41E39;
+}
+	#map {
+        height: 40%;
+        width: 100%;
+       }
+#countdown {
+   width: 262px;
+   position: relative;
+   left: 41%;
+   top: 0%;
+   transform: translate(-50%, -50%) rotate(-45deg);
+   padding: 0;
+   list-style: none;
 }
 
+#countdown li {
+   display: table;
+   text-align: center;
+   float: left;
+   background: #fff;
+   margin: 2px;
+   width: 70px;
+   height: 70px;
+}
+
+#countdown li:nth-child(3) {
+   clear: left;
+   margin-left: 72px;
+}
+
+#countdown li div {
+   transform: rotate(45deg);
+   font: 14px arial, sans-serif;
+   display: table-cell;
+   vertical-align: middle;
+}
+
+#countdown li div span {
+   display: block;
+   font-size: 3rem;
+   color: #323031;
+}
 .clearfix:after {
   visibility: hidden;
   display: block;
