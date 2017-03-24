@@ -126,7 +126,7 @@ body {
 }
 .clash-card .last{
 	width:310px;
-	height:400px;
+	height:450px;
 	background: #E41E39;
 }
 	#map {
@@ -137,7 +137,7 @@ body {
    width: 262px;
    position: relative;
    left: 35%;
-   top: 5%;
+   top: 3%;
    transform: translate(-50%, -50%) rotate(-45deg);
    padding: 0;
    list-style: none;
@@ -155,7 +155,7 @@ body {
 
 #countdown li:nth-child(3) {
    clear: left;
-   margin-left: 80px;
+   margin-left: 83px;
 }
 
 #countdown li div {
