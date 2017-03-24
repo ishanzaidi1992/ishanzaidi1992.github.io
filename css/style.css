@@ -87,12 +87,12 @@ body {
 }
 
 .slick-prev {
-  left: 60px;
+  left: 10px;
   z-index: 999;
 }
 
 .slick-next {
-  right: 60px;
+  right: 10px;
   z-index: 999;	
 }
 }
