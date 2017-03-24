@@ -96,7 +96,7 @@ body {
   z-index: 999;	
 }
 }
-@media (min-width:320px) and (max-width: 900px){
+@media (min-width:320px){
 body {
 background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
   background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
@@ -125,8 +125,9 @@ background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) 
   text-align: center;
 }
 .clash-card .last{
-	width:310px;
-	height:450px;
+	position: relative;
+	width:95%;
+	height:90%;
 	background: #E41E39;
 }
 	#map {
