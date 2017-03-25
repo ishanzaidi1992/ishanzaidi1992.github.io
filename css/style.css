@@ -36,10 +36,10 @@ background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, F
 	#map {
    float: left;
    position: absolute;
-   left: 3%;
-   top: 3%;
+   left: 7px;
+   top: 2%;
    z-index: 1000;
-        height: 60%;
+        height: 55%;
         width: 97%;
        }
 
