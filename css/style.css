@@ -11,7 +11,12 @@ body {
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
 }
-.demo-2 { background-image: linear-gradient(to bottom right, #E1BEE7, #B2EBF2); }
+.demo-2 { 
+
+background: #1CD8D2; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1CD8D2 , #93EDC7); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         }
 .slide-container {
   margin: auto;
   width: 470px;
@@ -105,7 +110,12 @@ background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) 
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
 }
-.demo-2 { background-image: linear-gradient(to bottom right, #E1BEE7, #B2EBF2); }
+.demo-2 { 
+
+background: #1CD8D2; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1CD8D2 , #93EDC7); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         }
 .slide-container {
   margin: auto;
   text-align: center;
