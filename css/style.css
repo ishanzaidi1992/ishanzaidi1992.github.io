@@ -37,7 +37,7 @@ background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, F
    float: left;
    position: absolute;
    left: 7px;
-   top: 2%;
+   top: 5px;
    z-index: 1000;
         height: 55%;
         width: 97%;
