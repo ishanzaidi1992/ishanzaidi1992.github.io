@@ -36,11 +36,11 @@ background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, F
 	#map {
    float: left;
    position: absolute;
-   left: 2px;
-   top: 2px;
+   left: 3%;
+   top: 3%;
    z-index: 1000;
-        height: 70%;
-        width: 98%;
+        height: 60%;
+        width: 97%;
        }
 
 .clearfix:after {
