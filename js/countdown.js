@@ -1,31 +1,35 @@
-(function countdown(){   
-   
-   var launch_date = new Date (Date.parse("Apr 27, 2017 07:00:00 GMT +1"));
-   var now = new Date();
-   var days; var hours; var minutes; var seconds; var rest;
-	
-   seconds = rest = Math.floor(((launch_date.getTime() - now.getTime()) / 1000));
+CountDownTimer('04/27/2017 07:30 PM', 'countdown');
 
-   days = zero (Math.floor(seconds / 86400));
-   seconds -= days * 86400;
-			
-   hours = zero (Math.floor(seconds / 3600));
-   seconds -= hours * 3600;
+function CountDownTimer(dt, id)
+{
+    var end = new Date(dt);
 
-   minutes = zero (Math.floor(seconds / 60));
-   seconds -= minutes * 60;
+    var _second = 1000;
+    var _minute = _second * 60;
+    var _hour = _minute * 60;
+    var _day = _hour * 24;
+    var timer;
 
-   seconds = zero (Math.floor(seconds));
-    
-   function zero(n){
-      return (n < 10 ? '0' : false) + n;  
-   }
-  
-   rest <= 0 ? days = hours = minutes = seconds = '00' : setTimeout(countdown, 1000);
-     
-   document.getElementById('countdown').innerHTML =
-      '<li><div><span>' + days +'</span><br>day' + (days > 1 ? 's' : '') +'</div></li>'
-      +'<li><div><span>' + hours +'</span><br>hour' + (hours > 1 ? 's' : '') +'</div></li>'
-      +'<li><div><span>' + minutes +'</span><br>minute' + (minutes > 1 ? 's' : '') +'</div></li>'
-      +'<li><div><span>' + seconds +'</span><br>second' + (seconds > 1 ? 's' : '') +'</div></li>';
-})();
+    function showRemaining() {
+        var now = new Date();
+        var distance = end - now;
+        if (distance < 0) {
+
+            clearInterval(timer);
+            document.getElementById(id).innerHTML = 'EXPIRED!';
+
+            return;
+        }
+        var days = Math.floor(distance / _day);
+        var hours = Math.floor((distance % _day) / _hour);
+        var minutes = Math.floor((distance % _hour) / _minute);
+        var seconds = Math.floor((distance % _minute) / _second);
+
+        document.getElementById(id).innerHTML = days + ':';
+        document.getElementById(id).innerHTML += hours + ':';
+        document.getElementById(id).innerHTML += minutes + ':';
+        document.getElementById(id).innerHTML += seconds + '';
+    }
+
+    timer = setInterval(showRemaining, 1000);
+}
