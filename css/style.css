@@ -35,7 +35,7 @@ background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, F
 }
 	#map {
    float: left;
-   position: relative;
+   position: absolute;
    left: 0px;
    top: 0px;
    z-index: 1000;
@@ -94,7 +94,7 @@ background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, F
 }
 	#map {
 		   float: left;
-   position: relative;
+   position: absolute;
    left: 0px;
    top: 0px;
    z-index: 1000;
