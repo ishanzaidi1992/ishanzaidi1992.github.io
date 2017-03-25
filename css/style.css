@@ -33,52 +33,11 @@ background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, F
   width:400px;
   text-align: center;
 }
-.clash-card .last{
-	width:405px;
-	height:560px;
-	background: #E41E39;
-}
 	#map {
         height: 290px;
         width: 100%;
        }
-#countdown {
-   width: 450px;
-   position: relative;
-   left: 41%;
-   top: -2%;
-   transform: translate(-50%, -50%) rotate(-45deg);
-   padding: 0;
-   list-style: none;
-}
 
-#countdown li {
-   display: table;
-   text-align: center;
-   float: left;
-   background: #fff;
-   margin: 2px;
-   width: 108px;
-   height: 108px;
-}
-
-#countdown li:nth-child(3) {
-   clear: left;
-   margin-left: 113px;
-}
-
-#countdown li div {
-   transform: rotate(45deg);
-   font: 14px arial, sans-serif;
-   display: table-cell;
-   vertical-align: middle;
-}
-
-#countdown li div span {
-   display: block;
-   font-size: 3rem;
-   color: #323031;
-}
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -128,52 +87,10 @@ background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, F
   width:90%;
   text-align: center;
 }
-.clash-card .last{
-	width:310px;
-	height:450px;
-	background: #E41E39;
-}
 	#map {
         height: 230px;
         width: 310px;
        }
-#countdown {
-   width: 262px;
-   position: relative;
-   left: 32%;
-   top: 3%;
-   transform: translate(-50%, -50%) rotate(-45deg);
-   padding: 0;
-   list-style: none;
-}
-
-#countdown li {
-   display: table;
-   text-align: center;
-   float: left;
-   background: #fff;
-   margin: 2px;
-   width: 80px;
-   height: 80px;
-}
-
-#countdown li:nth-child(3) {
-   clear: left;
-   margin-left: 85px;
-}
-
-#countdown li div {
-   transform: rotate(45deg);
-   font: 14px arial, sans-serif;
-   display: table-cell;
-   vertical-align: middle;
-}
-
-#countdown li div span {
-   display: block;
-   font-size: 2rem;
-   color: #323031;
-}
 .clearfix:after {
   visibility: hidden;
   display: block;
