@@ -34,6 +34,11 @@ background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, F
   text-align: center;
 }
 	#map {
+   float: left;
+   position: relative;
+   left: 0px;
+   top: 0px;
+   z-index: 1000;
         height: 290px;
         width: 100%;
        }
@@ -88,6 +93,11 @@ background: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, F
   text-align: center;
 }
 	#map {
+		   float: left;
+   position: relative;
+   left: 0px;
+   top: 0px;
+   z-index: 1000;
         height: 230px;
         width: 310px;
        }
